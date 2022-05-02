@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>TrustedTest</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>App.png</normaloff>App.png</iconset>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-1</y>
+     <width>1001</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(150, 238, 238);</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>2</y>
+      <width>339</width>
+      <height>62</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 26pt &quot;Calibri&quot;;
+background-color: rgb(214, 238, 205);</string>
+    </property>
+    <property name="text">
+     <string> Statistics based on test</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_home">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>20</y>
+      <width>80</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#but_home{
+	font: 10pt &quot;Calibri&quot;;
+	background-color: rgb(180, 220, 255);
+	border-radius:15px;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+}
+QPushButton#but_home:hover{
+	font: 10pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border-radius:15px;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Home.png</normaloff>Home.png</iconset>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q1">
+    <property name="geometry">
+     <rect>
+      <x>382</x>
+      <y>106</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#q1{
+	background-color: rgb(195, 250, 177);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}
+QPushButton#q1:hover{
+	background-color: rgb(214, 238, 205);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Graph</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q2">
+    <property name="geometry">
+     <rect>
+      <x>895</x>
+      <y>103</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#q2{
+	background-color: rgb(195, 250, 177);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}
+QPushButton#q2:hover{
+	background-color: rgb(214, 238, 205);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Graph</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q3">
+    <property name="geometry">
+     <rect>
+      <x>382</x>
+      <y>174</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#q3{
+	background-color: rgb(195, 250, 177);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}
+QPushButton#q3:hover{
+	background-color: rgb(214, 238, 205);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Graph</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>110</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>1.  What is your vaccination status?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>517</x>
+      <y>110</y>
+      <width>310</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>2.  Do you have pain in the chest or abdomen?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>179</y>
+      <width>340</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>3.  Are you feeling tired(fatigue) or loss of appetite?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>517</x>
+      <y>179</y>
+      <width>300</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>4.  Do you have difficulty in Breathing?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>249</y>
+      <width>348</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>5.  Do you feel like you are about to vomit/nauseting?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>517</x>
+      <y>254</y>
+      <width>221</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>6.  Do you have cold or cough?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>316</y>
+      <width>309</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>7.  Are you suffering from fever/sudden chills?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>517</x>
+      <y>320</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>8.  Is your throat sore?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>391</y>
+      <width>315</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>9.  Do you have a runny/congested/stuffy nose?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>509</x>
+      <y>389</y>
+      <width>354</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>10.  Are there any non-allegric skin rashes developed?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>456</y>
+      <width>330</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>11.  Is your sense of tast/smell decreased or lost?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>456</y>
+      <width>270</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>12.  Do you have headaches/joint pains?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>17</x>
+      <y>520</y>
+      <width>226</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>13.  Are you losing consciouness?</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q4">
+    <property name="geometry">
+     <rect>
+      <x>894</x>
+      <y>172</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#q4{
+	background-color: rgb(195, 250, 177);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}
+QPushButton#q4:hover{
+	background-color: rgb(214, 238, 205);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Graph</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q5">
+    <property name="geometry">
+     <rect>
+      <x>382</x>
+      <y>245</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#q5{
+	background-color: rgb(195, 250, 177);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}
+QPushButton#q5:hover{
+	background-color: rgb(214, 238, 205);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Graph</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q6">
+    <property name="geometry">
+     <rect>
+      <x>894</x>
+      <y>239</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#q6{
+	background-color: rgb(195, 250, 177);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}
+QPushButton#q6:hover{
+	background-color: rgb(214, 238, 205);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Graph</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q7">
+    <property name="geometry">
+     <rect>
+      <x>382</x>
+      <y>310</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#q7{
+	background-color: rgb(195, 250, 177);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}
+QPushButton#q7:hover{
+	background-color: rgb(214, 238, 205);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Graph</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q8">
+    <property name="geometry">
+     <rect>
+      <x>892</x>
+      <y>306</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#q8{
+	background-color: rgb(195, 250, 177);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}
+QPushButton#q8:hover{
+	background-color: rgb(214, 238, 205);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Graph</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q9">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>377</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#q9{
+	background-color: rgb(195, 250, 177);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}
+QPushButton#q9:hover{
+	background-color: rgb(214, 238, 205);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Graph</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q10">
+    <property name="geometry">
+     <rect>
+      <x>891</x>
+      <y>377</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#q10{
+	background-color: rgb(195, 250, 177);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}
+QPushButton#q10:hover{
+	background-color: rgb(214, 238, 205);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Graph</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q11">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>440</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#q11{
+	background-color: rgb(195, 250, 177);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}
+QPushButton#q11:hover{
+	background-color: rgb(214, 238, 205);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Graph</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q12">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>442</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#q12{
+	background-color: rgb(195, 250, 177);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}
+QPushButton#q12:hover{
+	background-color: rgb(214, 238, 205);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Graph</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q13">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>504</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#q13{
+	background-color: rgb(195, 250, 177);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}
+QPushButton#q13:hover{
+	background-color: rgb(214, 238, 205);
+	font: 14pt &quot;Calibri&quot;;
+	border-radius:15px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Graph</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

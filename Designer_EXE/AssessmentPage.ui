@@ -1,0 +1,2220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>TrustedTest</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>App.png</normaloff>App.png</iconset>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <widget class="QScrollArea" name="scroll">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>70</y>
+     <width>1000</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1000</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(189, 238, 238);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOn</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="sizeAdjustPolicy">
+    <enum>QAbstractScrollArea::AdjustToContents</enum>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>983</width>
+      <height>1718</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QWidget" name="widget" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>965</width>
+         <height>1700</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>900</width>
+         <height>1700</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#widget{
+	background-color: rgb(195, 250, 177);
+	border-radius:50px;
+}</string>
+       </property>
+       <widget class="QCheckBox" name="q11">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>89</y>
+          <width>112</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_13{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_13:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>1 dose done</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_4</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q14">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>89</y>
+          <width>117</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_14{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_14:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>No doses taken</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_4</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q13">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>89</y>
+          <width>112</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_15{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_15:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>3 doses done</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_4</string>
+        </attribute>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>49</y>
+          <width>280</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Calibri&quot;;</string>
+        </property>
+        <property name="text">
+         <string>1.  What is your vaccination status?</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="q12">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>89</y>
+          <width>112</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_16{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_16:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>2 doses done</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_4</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q22">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>210</y>
+          <width>112</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_17{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_17:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>Mild Pain</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_5</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q21">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>210</y>
+          <width>112</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_18{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_18:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>No Pain</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_5</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q23">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>210</y>
+          <width>112</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_19{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_19:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>Severe Pain</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_5</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q24">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>210</y>
+          <width>160</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_20{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_20:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>Yes, due to past injury</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_5</string>
+        </attribute>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>170</y>
+          <width>391</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Calibri&quot;;</string>
+        </property>
+        <property name="text">
+         <string>2.  Do you have pain in the chest or abdomen?</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="q34">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>330</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_21{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_21:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>from last 3 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_6</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q31">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>330</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_22{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_22:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>No</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_6</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q33">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>330</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_23{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_23:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>from last 2 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_6</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q32">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>330</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_24{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_24:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>from last 1 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_6</string>
+        </attribute>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>290</y>
+          <width>431</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Calibri&quot;;</string>
+        </property>
+        <property name="text">
+         <string>3.  Are you feeling tired(fatigue) or loss of appetite?</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="q42">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>449</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_25{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_25:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>Mild difficulty</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_7</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q44">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>449</y>
+          <width>190</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_26{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_26:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>Difficulty due medical issue</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_7</string>
+        </attribute>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>409</y>
+          <width>341</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Calibri&quot;;</string>
+        </property>
+        <property name="text">
+         <string>4.  Do you have difficulty in Breathing?</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="q43">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>449</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_27{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_27:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>Severe difficulty</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_7</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q41">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>449</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_28{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_28:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>No difficulty</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_7</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q52">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>568</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_29{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_29:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>Sometime</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_8</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q54">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>568</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_30{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_30:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>Bloody vomiting</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_8</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q53">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>568</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_31{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_31:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>Many Times</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_8</string>
+        </attribute>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>528</y>
+          <width>431</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Calibri&quot;;</string>
+        </property>
+        <property name="text">
+         <string>5.  Do you feel like you are about to vomit/nauseting?</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="q51">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>568</y>
+          <width>110</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_32{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_32:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>No</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_8</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q72">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>813</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_33{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_33:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 1 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_9</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q74">
+        <property name="geometry">
+         <rect>
+          <x>650</x>
+          <y>813</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_34{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_34:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 3 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_9</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q73">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>813</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_35{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_35:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 2 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_9</string>
+        </attribute>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>141</x>
+          <y>773</y>
+          <width>370</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Calibri&quot;;</string>
+        </property>
+        <property name="text">
+         <string>7.  Are you suffering from fever/sudden chills?</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="q71">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>812</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_36{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_36:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>No</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_9</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q63">
+        <property name="geometry">
+         <rect>
+          <x>501</x>
+          <y>684</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_37{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_37:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 2 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_10</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q61">
+        <property name="geometry">
+         <rect>
+          <x>181</x>
+          <y>684</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_38{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_38:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>No</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_10</string>
+        </attribute>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>141</x>
+          <y>646</y>
+          <width>260</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Calibri&quot;;</string>
+        </property>
+        <property name="text">
+         <string>6.  Do you have cold or cough?</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="q64">
+        <property name="geometry">
+         <rect>
+          <x>661</x>
+          <y>684</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_39{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_39:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 3 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_10</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q62">
+        <property name="geometry">
+         <rect>
+          <x>341</x>
+          <y>684</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_40{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_40:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 1 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_10</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q84">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>932</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_41{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_41:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 3 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_11</string>
+        </attribute>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>892</y>
+          <width>190</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Calibri&quot;;</string>
+        </property>
+        <property name="text">
+         <string>8.  Is your throat sore?</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="q82">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>932</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_42{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_42:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 1 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_11</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q81">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>932</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_43{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_43:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>No</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_11</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q83">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>932</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_44{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_44:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 2 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_11</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q94">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>1056</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_45{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_45:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 3 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_12</string>
+        </attribute>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>1016</y>
+          <width>441</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Calibri&quot;;</string>
+        </property>
+        <property name="text">
+         <string>9.  Do you have a runny/congested/stuffy nose?</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="q92">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>1056</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_46{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_46:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 1 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_12</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q91">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>1056</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_47{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_47:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>No</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_12</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q93">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>1056</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_48{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_48:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 2 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_12</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q104">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>1179</y>
+          <width>144</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_49{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_49:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>Other skin infection</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_13</string>
+        </attribute>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>1139</y>
+          <width>430</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Calibri&quot;;</string>
+        </property>
+        <property name="text">
+         <string>10.  Are there any non-allegric skin rashes developed?</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="q102">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>1179</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_50{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_50:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>Mild rashes</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_13</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q101">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>1179</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_51{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_51:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>No</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_13</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q103">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>1179</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_52{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_52:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>Severe Rashes</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_13</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q114">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>1302</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_53{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_53:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>Totally Lost</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_14</string>
+        </attribute>
+       </widget>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>1262</y>
+          <width>390</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Calibri&quot;;</string>
+        </property>
+        <property name="text">
+         <string>11.  Is your sense of tast/smell decreased or lost?</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="q112">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>1302</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_54{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_54:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>Mild Decrease</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_14</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q111">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>1302</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_55{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_55:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>No</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_14</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q113">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>1302</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_56{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_56:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>Severe Decrease</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_14</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q124">
+        <property name="geometry">
+         <rect>
+          <x>661</x>
+          <y>1423</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_57{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_57:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 3 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_15</string>
+        </attribute>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>141</x>
+          <y>1383</y>
+          <width>320</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Calibri&quot;;</string>
+        </property>
+        <property name="text">
+         <string>12.  Do you have headaches/joint pains?</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="q122">
+        <property name="geometry">
+         <rect>
+          <x>341</x>
+          <y>1423</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_58{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_58:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 1 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_15</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q121">
+        <property name="geometry">
+         <rect>
+          <x>181</x>
+          <y>1423</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_59{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_59:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>No</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_15</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q123">
+        <property name="geometry">
+         <rect>
+          <x>501</x>
+          <y>1423</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_60{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_60:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 2 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_15</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q134">
+        <property name="geometry">
+         <rect>
+          <x>661</x>
+          <y>1540</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_61{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_61:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 3 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_16</string>
+        </attribute>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>141</x>
+          <y>1500</y>
+          <width>261</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Calibri&quot;;</string>
+        </property>
+        <property name="text">
+         <string>13.  Are you losing consciouness?</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="q132">
+        <property name="geometry">
+         <rect>
+          <x>341</x>
+          <y>1540</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_62{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_62:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 1 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_16</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q131">
+        <property name="geometry">
+         <rect>
+          <x>181</x>
+          <y>1540</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_63{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_63:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>No</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_16</string>
+        </attribute>
+       </widget>
+       <widget class="QCheckBox" name="q133">
+        <property name="geometry">
+         <rect>
+          <x>501</x>
+          <y>1540</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox#checkBox_64{
+	font: 11pt &quot;Calibri&quot;;
+}
+QCheckBox#checkBox_64:checked{
+	font: 11pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border: 1 solid;
+	border-color: rgb(255, 196, 196);
+}</string>
+        </property>
+        <property name="text">
+         <string>since last 2 week</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup_16</string>
+        </attribute>
+       </widget>
+       <widget class="QFrame" name="frame_9">
+        <property name="geometry">
+         <rect>
+          <x>31</x>
+          <y>30</y>
+          <width>900</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(189, 238, 238);
+border-radius:40px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_7">
+        <property name="geometry">
+         <rect>
+          <x>31</x>
+          <y>155</y>
+          <width>900</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(189, 238, 238);
+border-radius:40px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_8">
+        <property name="geometry">
+         <rect>
+          <x>31</x>
+          <y>278</y>
+          <width>900</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(189, 238, 238);
+border-radius:40px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_6">
+        <property name="geometry">
+         <rect>
+          <x>31</x>
+          <y>398</y>
+          <width>900</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(189, 238, 238);
+border-radius:40px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_5">
+        <property name="geometry">
+         <rect>
+          <x>32</x>
+          <y>518</y>
+          <width>900</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(189, 238, 238);
+border-radius:40px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_4">
+        <property name="geometry">
+         <rect>
+          <x>31</x>
+          <y>637</y>
+          <width>900</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(189, 238, 238);
+border-radius:40px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_3">
+        <property name="geometry">
+         <rect>
+          <x>31</x>
+          <y>758</y>
+          <width>900</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(189, 238, 238);
+border-radius:40px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_11">
+        <property name="geometry">
+         <rect>
+          <x>31</x>
+          <y>881</y>
+          <width>900</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(189, 238, 238);
+border-radius:40px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_16">
+        <property name="geometry">
+         <rect>
+          <x>31</x>
+          <y>1004</y>
+          <width>900</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(189, 238, 238);
+border-radius:40px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_12">
+        <property name="geometry">
+         <rect>
+          <x>31</x>
+          <y>1126</y>
+          <width>900</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(189, 238, 238);
+border-radius:40px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_15">
+        <property name="geometry">
+         <rect>
+          <x>31</x>
+          <y>1248</y>
+          <width>900</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(189, 238, 238);
+border-radius:40px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_14">
+        <property name="geometry">
+         <rect>
+          <x>31</x>
+          <y>1368</y>
+          <width>900</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(189, 238, 238);
+border-radius:40px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QFrame" name="frame_13">
+        <property name="geometry">
+         <rect>
+          <x>32</x>
+          <y>1488</y>
+          <width>900</width>
+          <height>105</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(189, 238, 238);
+border-radius:40px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="but_sub">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>1650</y>
+          <width>114</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#but_sub{
+	background-color: rgb(150, 238, 238);
+	border-radius:15px;
+	font: bold 14pt &quot;Calibri&quot;;
+}
+QPushButton#but_sub:hover{
+	background-color: rgb(189, 238, 238);
+	border-radius:15px;
+	font: bold 14pt &quot;Calibri&quot;;
+}</string>
+        </property>
+        <property name="text">
+         <string>Submit</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lab_error3">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>1610</y>
+          <width>340</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;Calibri&quot;;
+text-decoration: underline;
+background-color: rgb(195, 250, 177);
+color: rgb(255, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <zorder>frame_13</zorder>
+       <zorder>frame_14</zorder>
+       <zorder>frame_15</zorder>
+       <zorder>frame_12</zorder>
+       <zorder>frame_16</zorder>
+       <zorder>frame_11</zorder>
+       <zorder>frame_3</zorder>
+       <zorder>frame_4</zorder>
+       <zorder>frame_5</zorder>
+       <zorder>frame_6</zorder>
+       <zorder>frame_8</zorder>
+       <zorder>frame_7</zorder>
+       <zorder>frame_9</zorder>
+       <zorder>q11</zorder>
+       <zorder>q14</zorder>
+       <zorder>q13</zorder>
+       <zorder>label_5</zorder>
+       <zorder>q12</zorder>
+       <zorder>q22</zorder>
+       <zorder>q21</zorder>
+       <zorder>q23</zorder>
+       <zorder>q24</zorder>
+       <zorder>label_6</zorder>
+       <zorder>q34</zorder>
+       <zorder>q31</zorder>
+       <zorder>q33</zorder>
+       <zorder>q32</zorder>
+       <zorder>label_7</zorder>
+       <zorder>q42</zorder>
+       <zorder>q44</zorder>
+       <zorder>label_8</zorder>
+       <zorder>q43</zorder>
+       <zorder>q41</zorder>
+       <zorder>q52</zorder>
+       <zorder>q54</zorder>
+       <zorder>q53</zorder>
+       <zorder>label_9</zorder>
+       <zorder>q51</zorder>
+       <zorder>q72</zorder>
+       <zorder>q74</zorder>
+       <zorder>q73</zorder>
+       <zorder>label_10</zorder>
+       <zorder>q71</zorder>
+       <zorder>q63</zorder>
+       <zorder>q61</zorder>
+       <zorder>label_11</zorder>
+       <zorder>q64</zorder>
+       <zorder>q62</zorder>
+       <zorder>q84</zorder>
+       <zorder>label_12</zorder>
+       <zorder>q82</zorder>
+       <zorder>q81</zorder>
+       <zorder>q83</zorder>
+       <zorder>q94</zorder>
+       <zorder>label_13</zorder>
+       <zorder>q92</zorder>
+       <zorder>q91</zorder>
+       <zorder>q93</zorder>
+       <zorder>q104</zorder>
+       <zorder>label_14</zorder>
+       <zorder>q102</zorder>
+       <zorder>q101</zorder>
+       <zorder>q103</zorder>
+       <zorder>q114</zorder>
+       <zorder>label_15</zorder>
+       <zorder>q112</zorder>
+       <zorder>q111</zorder>
+       <zorder>q113</zorder>
+       <zorder>q124</zorder>
+       <zorder>label_16</zorder>
+       <zorder>q122</zorder>
+       <zorder>q121</zorder>
+       <zorder>q123</zorder>
+       <zorder>q134</zorder>
+       <zorder>label_17</zorder>
+       <zorder>q132</zorder>
+       <zorder>q131</zorder>
+       <zorder>q133</zorder>
+       <zorder>but_sub</zorder>
+       <zorder>lab_error3</zorder>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1001</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 26pt &quot;Calibri&quot;;
+background-color: rgb(214, 238, 205);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="text">
+    <string>Assess Yourself</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>-2</x>
+     <y>69</y>
+     <width>1010</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="but_home">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>16</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#but_home{
+	font: 10pt &quot;Calibri&quot;;
+	background-color: rgb(180, 220, 255);
+	border-radius:15px;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+}
+QPushButton#but_home:hover{
+	font: 10pt &quot;Calibri&quot;;
+	background-color: rgb(189, 238, 238);
+	border-radius:15px;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Home.png</normaloff>Home.png</iconset>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup_8"/>
+  <buttongroup name="buttonGroup_4"/>
+  <buttongroup name="buttonGroup_15"/>
+  <buttongroup name="buttonGroup_13"/>
+  <buttongroup name="buttonGroup_16"/>
+  <buttongroup name="buttonGroup_6"/>
+  <buttongroup name="buttonGroup_7"/>
+  <buttongroup name="buttonGroup_9"/>
+  <buttongroup name="buttonGroup_12"/>
+  <buttongroup name="buttonGroup_11"/>
+  <buttongroup name="buttonGroup_5"/>
+  <buttongroup name="buttonGroup_10"/>
+  <buttongroup name="buttonGroup_14"/>
+ </buttongroups>
+</ui>
